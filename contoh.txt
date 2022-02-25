@@ -1,0 +1,17 @@
+package logikapemrog;
+import java.util.*;
+public class latihanmath {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner scan = new Scanner (System.in);
+	double nilai1,nilai2,nilai3; 
+	System.out.println("Masukan Nilai: "); nilai1= scan.nextDouble();
+	System.out.println("Akar dari " +nilai1+"adalah" +Math.sqrt(nilai1));
+	System.out.println("Masukan Nilai: "); nilai2= scan.nextDouble();
+	System.out.println("Masukan Nilai: "); nilai3= scan.nextDouble();
+	System.out.println("pangkat " +nilai2+ "dari " +nilai3+"adalah" +Math.pow(nilai2,nilai3));
+	
+	}
+
+}
